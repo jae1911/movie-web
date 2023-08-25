@@ -3,7 +3,7 @@ import { registerProvider } from "../helpers/register";
 import { MWStreamQuality, MWStreamType } from "../helpers/streams";
 import { MWMediaType } from "../metadata/types/mw";
 
-const sflixBase = "https://sflix.video";
+const sflixBase = "https://sflix.to";
 
 registerProvider({
   id: "sflix",
