@@ -1,9 +1,8 @@
-import { APP_VERSION, DISCORD_LINK, GITHUB_LINK } from "./constants";
+import { APP_VERSION, GITHUB_LINK } from "./constants";
 
 interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
-  DISCORD_LINK: string;
   TMDB_READ_API_KEY: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
@@ -12,7 +11,6 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   GITHUB_LINK: string;
-  DISCORD_LINK: string;
   TMDB_READ_API_KEY: string;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];
@@ -22,7 +20,6 @@ const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
   GITHUB_LINK: undefined,
-  DISCORD_LINK: undefined,
   CORS_PROXY_URL: import.meta.env.VITE_CORS_PROXY_URL,
   NORMAL_ROUTER: import.meta.env.VITE_NORMAL_ROUTER,
 };
@@ -55,7 +52,6 @@ export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
     GITHUB_LINK,
-    DISCORD_LINK,
     TMDB_READ_API_KEY: getKey("TMDB_READ_API_KEY"),
     PROXY_URLS: getKey("CORS_PROXY_URL")
       .split(",")

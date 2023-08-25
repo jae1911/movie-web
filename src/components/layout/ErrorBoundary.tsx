@@ -53,7 +53,6 @@ export function ErrorMessage(props: ErrorMessageProps) {
         ) : (
           <p className="my-6 max-w-lg">
             <Trans i18nKey="media.errors.videoFailed">
-              <Link url={conf().DISCORD_LINK} newTab />
               <Link url={conf().GITHUB_LINK} newTab />
             </Trans>
           </p>

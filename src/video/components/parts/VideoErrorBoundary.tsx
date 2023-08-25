@@ -72,7 +72,6 @@ export class VideoErrorBoundary extends Component<
         </div>
         <ErrorMessage error={this.state.error} localSize>
           <Trans i18nKey="videoPlayer.errors.fatalError">
-            <Link url={conf().DISCORD_LINK} newTab />
             <Link url={conf().GITHUB_LINK} newTab />
           </Trans>
         </ErrorMessage>

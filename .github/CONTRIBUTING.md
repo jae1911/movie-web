@@ -1,13 +1,12 @@
 # Contributing Guidelines for movie-web
 
-Thank you for investing your time in contributing to our project! Your contribution will be reflected on [movie-web.app](https://movie-web.app).
+Thank you for investing your time in contributing to our project! Your contribution will be reflected on [magikmovies.xenia.lol](https://magikmovies.xenia.lol).
 
 Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
 ## Contents
  - [New Contributor Guide](#new-contributor-guide)
  - [Requesting a feature or reporting a bug](#requesting-a-feature-or-reporting-a-bug)
-   - [Discord Server](#discord-server)
    - [GitHub Issues](#github-issues)
  - [Before you start](#before-you-start)
  - [Contributing](#before-you-start)
@@ -29,11 +28,6 @@ To get an overview of the project, read the [README](README.md). Here are some r
 There are two places where to request features or report bugs:
  - GitHub Issues
  - The movie-web Discord server
-
-### Discord Server
-If you do not have a GitHub account or want to discuss a feature or bug with us before making an issue, you can join our Discord server.
-
-<a href="https://discord.movie-web.app"><img src="https://discord.com/api/guilds/871713465100816424/widget.png?style=banner2" alt="Discord Server"></a>
 
 ### GitHub Issues
 To make a GitHub issue for movie-web, please visit the [new issue page](https://github.com/movie-web/movie-web/issues/new/choose) where you can pick either the "Bug Report" or "Feature Request" template.

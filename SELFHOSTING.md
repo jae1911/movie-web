@@ -6,6 +6,8 @@ So you would like to self-host. This app is made of two parts:
 
 ## Hosting the proxy
 
+> Work is being done to avoid using CloudFlare
+
 The proxy is made as a Cloudflare worker. Cloudflare has a generous free plan, so you don't need to pay anything unless you get hundreds of users.
 
 1. Create a Cloudflare account at [https://dash.cloudflare.com](https://dash.cloudflare.com).
