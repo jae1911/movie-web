@@ -44,3 +44,5 @@ You'll need to deploy a cloudflare service worker as well. Check the [selfhostin
 ## Credits
 
 See AUTHORS.txt file.
+
+All contributions prior to 3a44dfa1a5c7492cac8442c492d39cc79f808332 are licensed under MIT.
