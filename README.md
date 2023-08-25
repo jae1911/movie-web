@@ -2,7 +2,7 @@
 
 # Now with tracking bullshit removed!
 
-movie-web is a web app for watching movies easily. Check it out at **[movie-web.app](https://magikmovies.xenia.lol)**.
+movie-web is a web app for watching movies easily. Check it out at **[magikmovies.xenia.lol](https://magikmovies.xenia.lol)**.
 
 This service works by displaying video files from third-party providers inside an intuitive and aesthetic user interface.
 
