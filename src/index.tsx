@@ -10,8 +10,6 @@ import App from "@/setup/App";
 import { assertConfig, conf } from "@/setup/config";
 import i18n from "@/setup/i18n";
 
-import "@/setup/ga";
-import "@/setup/sentry";
 import "@/setup/index.css";
 import "@/backend";
 import { initializeChromecast } from "./setup/chromecast";
