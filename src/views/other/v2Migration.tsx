@@ -55,7 +55,7 @@ export function EmbedMigration() {
     };
   });
 
-  return <iframe src="https://movie.squeezebox.dev" hidden />;
+  return null;
 }
 
 export function V2MigrationView() {
